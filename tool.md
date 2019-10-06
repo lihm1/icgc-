@@ -58,12 +58,12 @@ Python 2.7.9 + 或 Python 3.4+ 以上版本都自带 pip 工具。
 如果没有pip，需要安装pip
 ~~~
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python git-pip.py
+python gt-pip.py
 pip -version
 ~~~
 用python的pip进行安装
 ~~~
-pip insatall awscli
+pip install awscli
 aws -version
 ~~~
 安装后需要配置awscli
